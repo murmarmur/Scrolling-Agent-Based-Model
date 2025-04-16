@@ -61,8 +61,7 @@ pip install tkinter
 Data Files and Dependencies
 ----------------------
 - **names-list.txt**  
-  This file was sourced from [Repository random-name]([http://example.com](https://github.com/dominictarr/random-name/blob/master/first-names.txt)![image](https://github.com/user-attachments/assets/735a152b-ac75-4673-b10b-f0e4cdb3a870)
-) and [Repository Y](http://example.com) for generating consumer names.
+  This file was sourced from [Repository random-name](https://github.com/dominictarr/random-name/blob/master/first-names.txt) for generating consumer names.
 
 - **consumers.csv** and **simulation_log.csv**  
   These files are used by the model to store consumer data and log simulation events. If they do not exist, they will be created automatically when the simulation runs.  
