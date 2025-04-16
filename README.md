@@ -106,6 +106,3 @@ timestamp,producer,consumer,cycle,phase,current_lag,knowledge,feedback,boredom_t
 2025-04-16 14:13:22,Producer 1,Morna,1,discovery,0,"N,N,N,N,I,N,N,N,N,N",click,23,0,"0,0,0,0,1,0,0,0,0,0",dynamic,Variable Both,No,
 2025-04-16 14:13:23,Producer 1,Morna,1,discovery,0,"N,N,I,N,N,N,N,N,N,N",click,23,0,"0,0,1,0,0,0,0,0,0,0",dynamic,Variable Both,Yes,
 ```
-Graphical User Interface (GUI) Display
-----------------------
-![Screenshot of the simulation](/Users/m/Desktop/screenshot)
