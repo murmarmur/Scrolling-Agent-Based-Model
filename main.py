@@ -182,7 +182,7 @@ def load_consumers_from_csv():
         """
     consumers = []
     if not os.path.exists('consumers.csv'):
-        generate_random_consumers(10)
+        generate_random_consumers(100)
     with open('consumers.csv', 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
