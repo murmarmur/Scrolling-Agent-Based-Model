@@ -65,7 +65,8 @@ Data Files and Dependencies
   These files are used by the model to store consumer data and log simulation events. If they do not exist, they will be created automatically when the simulation runs.  
   The number of consumers can be adjusted in the `load_consumers_from_csv()` method (specifically in the `generate_random_consumers()` function).
 
-**Example File Contents:**
+Example File Contents:
+----------------------
 
 - **names-list.txt:**
 ```bash
@@ -105,3 +106,6 @@ timestamp,producer,consumer,cycle,phase,current_lag,knowledge,feedback,boredom_t
 2025-04-16 14:13:22,Producer 1,Morna,1,discovery,0,"N,N,N,N,I,N,N,N,N,N",click,23,0,"0,0,0,0,1,0,0,0,0,0",dynamic,Variable Both,No,
 2025-04-16 14:13:23,Producer 1,Morna,1,discovery,0,"N,N,I,N,N,N,N,N,N,N",click,23,0,"0,0,1,0,0,0,0,0,0,0",dynamic,Variable Both,Yes,
 ```
+Graphical User Interface (GUI) Display
+----------------------
+![Screenshot of the simulation](/Users/m/Desktop/screenshot)
