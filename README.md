@@ -35,6 +35,9 @@ Key Mechanisms
 
 Software Architecture
 ---------------------
+**Graphical User Interface (GUI):**
+In addition to the core simulation mechanics, the project features a real-time GUI built with Tkinter. The GUI not only displays dynamic producer-consumer interactions and simulation states but also provides interactive controls, such as start and stop buttons, to facilitate user engagement with the simulation. The interface refreshes every 100 milliseconds, ensuring that the visualised data accurately reflects the current state of the simulation. The simulation automatically stops when all consumers achieve the "hooked" state.
+
 The model is implemented in Python using the following libraries:
 - **NumPy:** For numerical computations.
 - **Tkinter:** For the graphical user interface (GUI), which displays real-time simulation data.
