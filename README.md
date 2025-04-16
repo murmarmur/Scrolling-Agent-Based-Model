@@ -43,8 +43,6 @@ The model is implemented in Python using the following libraries:
 - **Tkinter:** For the graphical user interface (GUI), which displays real-time simulation data.
 - **Standard Libraries:** (csv, threading, datetime, etc.) for data handling, logging, and simulation control.
 
-The simulation utilizes a CSV file ('consumers.csv') to load or generate consumer profiles and logs simulation events to a CSV log file ('simulation_log.csv') for later analysis.
-
 Installation and Usage
 ----------------------
 **Prerequisites:**  
@@ -61,7 +59,7 @@ pip install tkinter
 Data Files and Dependencies
 ----------------------
 - **names-list.txt**  
-  This file was sourced from [Repository random-name](https://github.com/dominictarr/random-name/blob/master/first-names.txt) for generating consumer names.
+  This file was sourced from [Repository "random-name"](https://github.com/dominictarr/random-name/blob/master/first-names.txt) for generating consumer names.
 
 - **consumers.csv** and **simulation_log.csv**  
   These files are used by the model to store consumer data and log simulation events. If they do not exist, they will be created automatically when the simulation runs.  
@@ -70,4 +68,12 @@ Data Files and Dependencies
 **Example File Contents:**
 
 - **names-list.txt:**
-
+```bash
+Name,Interests,Lag,BoredomThreshold,Producer,Type,Novelty,RewardType
+Nesta,"[0, 0, 0, 1, 0, 0, 1, 1, 0, 1]",2,19,Producer 1,static,0.53,Variable SD
+Tani,"[1, 0, 0, 0, 0, 1, 0, 0, 0, 0]",2,23,Producer 2,dynamic,0.98,Variable SD
+Morna,"[0, 0, 0, 0, 1, 0, 0, 0, 0, 0]",4,23,Producer 1,dynamic,0.64,Variable Both
+Gwenora,"[1, 0, 0, 0, 0, 1, 1, 0, 0, 0]",5,13,Producer 2,static,1.08,Variable Mean
+Zandra,"[0, 0, 1, 0, 0, 0, 1, 0, 0, 0]",2,20,Producer 1,static,0.95,Variable Mean
+Miguela,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 0]",5,22,Producer 2,static,1.11,Fixed
+```
