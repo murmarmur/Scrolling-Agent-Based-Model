@@ -3,7 +3,7 @@ Agent-Based Scrolling Behaviour Simulation
 
 Overview
 --------
-This project implements an agent-based computational model designed to simulate user scrolling behaviour on digital platforms. The model abstracts core psychological mechanisms - boredom, novelty-seeking, and reward processing - to isolate the factors that contribute to excessive scrolling behaviour. It provides an exploratory tool for studying user engagement and can serve as a scalable foundation for future research.
+This project implements an agent-based computational model designed to simulate user scrolling behaviour on digital platforms. The model abstracts core psychological mechanisms - boredom, novelty-seeking, and reward processing - to isolate the factors that contribute to excessive scrolling behaviour. It provides an exploratory tool for studying user engagement and can serve as a scalable foundation for future research. This project was created as part of an undergraduate dissertation in Psychology at the University of Edinburgh.
 
 Model Description
 -----------------
