@@ -46,7 +46,7 @@ Installation and Usage
 ----------------------
 **Prerequisites:**  
 - Python 3.10.7 
-- Required Libraries: NumPy, Tkinter (typically bundled with Python)
+- Required Libraries: NumPy, Tkinter, Threading, Time, Random, Csv, Os, Ast, Datetime (typically bundled with Python)
 
 **Installation:**  
 If needed, install NumPy and Tkinter via pip:  
