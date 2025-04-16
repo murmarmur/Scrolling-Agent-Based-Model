@@ -77,3 +77,31 @@ Gwenora,"[1, 0, 0, 0, 0, 1, 1, 0, 0, 0]",5,13,Producer 2,static,1.08,Variable Me
 Zandra,"[0, 0, 1, 0, 0, 0, 1, 0, 0, 0]",2,20,Producer 1,static,0.95,Variable Mean
 Miguela,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 0]",5,22,Producer 2,static,1.11,Fixed
 ```
+
+- **consumers.csv:**
+```bash
+timestamp,producer,consumer,cycle,phase,current_lag,knowledge,feedback,boredom_threshold,current_boredom,interests,consumer_type,reward_function_type,interest changed,hooked_producer
+2025-04-16 14:13:14,Producer 1,Nesta,1,discovery,0,"U,U,U,U,U,U,U,U,U,U",Starting cycle,19,0,"0,0,0,1,0,0,1,1,0,1",static,Variable SD,No,
+2025-04-16 14:13:14,Producer 1,Nesta,1,discovery,0,"N,N,N,U,U,U,U,U,U,U",scroll,19,3,"0,0,0,1,0,0,1,1,0,1",static,Variable SD,No,
+2025-04-16 14:13:14,Producer 1,Nesta,1,discovery,0,"N,N,N,M,M,M,U,U,U,U",click,19,4.840418461763329,"0,0,0,1,0,0,1,1,0,1",static,Variable SD,No,
+2025-04-16 14:13:15,Producer 1,Nesta,1,discovery,0,"N,N,N,M,M,M,M,M,M,U",click,19,5.681410787637234,"0,0,0,1,0,0,1,1,0,1",static,Variable SD,No,
+2025-04-16 14:13:15,Producer 1,Nesta,1,discovery,0,"N,N,N,M,M,M,M,M,M,I",click,19,7.522407092711602,"0,0,0,1,0,0,1,1,0,1",static,Variable SD,No,
+2025-04-16 14:13:16,Producer 1,Nesta,1,discovery,0,"N,N,N,I,M,M,M,M,M,I",click,19,9.522403281492824,"0,0,0,1,0,0,1,1,0,1",static,Variable SD,No,
+2025-04-16 14:13:16,Producer 1,Nesta,1,discovery,0,"N,N,N,I,N,M,M,M,M,I",scroll,19,12.522403281492824,"0,0,0,1,0,0,1,1,0,1",static,Variable SD,No,
+2025-04-16 14:13:17,Producer 1,Nesta,1,discovery,0,"N,N,N,I,N,N,M,M,M,I",scroll,19,15.522403281492824,"0,0,0,1,0,0,1,1,0,1",static,Variable SD,No,
+2025-04-16 14:13:17,Producer 1,Nesta,1,discovery,0,"N,N,N,I,N,N,I,M,M,I",click,19,17.47789712597146,"0,0,0,1,0,0,1,1,0,1",static,Variable SD,No,
+2025-04-16 14:13:18,Producer 1,Nesta,1,discovery,0,"N,N,N,I,N,N,I,M,M,I",leave,19,19.477893477272335,"0,0,0,1,0,0,1,1,0,1",static,Variable SD,No,
+2025-04-16 14:13:18,Producer 1,Nesta,1,discovery,0,"N,N,N,I,N,N,I,M,M,I",left due to boredom,19,19.477893477272335,"0,0,0,1,0,0,1,1,0,1",static,Variable SD,No,
+2025-04-16 14:13:18,Producer 1,Morna,1,discovery,0,"U,U,U,U,U,U,U,U,U,U",Starting cycle,23,0,"0,0,0,0,1,0,0,0,0,0",dynamic,Variable Both,No,
+2025-04-16 14:13:18,Producer 1,Morna,1,discovery,0,"N,N,N,U,U,U,U,U,U,U",scroll,23,3,"0,0,0,0,1,0,0,0,0,0",dynamic,Variable Both,No,
+2025-04-16 14:13:18,Producer 1,Morna,1,discovery,0,"N,N,N,M,M,M,U,U,U,U",click,23,0,"0,0,0,0,1,0,0,0,0,0",dynamic,Variable Both,No,
+2025-04-16 14:13:19,Producer 1,Morna,1,discovery,0,"N,N,N,M,M,M,N,N,N,U",scroll,23,3,"0,0,0,0,1,0,0,0,0,0",dynamic,Variable Both,No,
+2025-04-16 14:13:19,Producer 1,Morna,1,discovery,0,"N,N,N,M,M,M,N,N,N,N",scroll,23,6,"0,0,0,0,1,0,0,0,0,0",dynamic,Variable Both,No,
+2025-04-16 14:13:20,Producer 1,Morna,1,discovery,0,"N,N,N,N,M,M,N,N,N,N",scroll,23,9,"0,0,0,0,1,0,0,0,0,0",dynamic,Variable Both,No,
+2025-04-16 14:13:20,Producer 1,Morna,1,discovery,0,"N,N,N,N,I,M,N,N,N,N",click,23,0,"0,0,0,0,1,0,0,0,0,0",dynamic,Variable Both,No,
+2025-04-16 14:13:21,Producer 1,Morna,1,discovery,0,"N,N,N,N,I,N,N,N,N,N",scroll,23,3,"0,0,0,0,1,0,0,0,0,0",dynamic,Variable Both,No,
+2025-04-16 14:13:21,Producer 1,Morna,1,discovery,0,"N,N,N,N,I,N,N,N,N,N",click,23,0,"0,0,0,0,1,0,0,0,0,0",dynamic,Variable Both,No,
+2025-04-16 14:13:22,Producer 1,Morna,1,discovery,0,"N,N,N,N,I,N,N,N,N,N",click,23,0,"0,0,0,0,1,0,0,0,0,0",dynamic,Variable Both,No,
+2025-04-16 14:13:22,Producer 1,Morna,1,discovery,0,"N,N,N,N,I,N,N,N,N,N",click,23,0,"0,0,0,0,1,0,0,0,0,0",dynamic,Variable Both,No,
+2025-04-16 14:13:23,Producer 1,Morna,1,discovery,0,"N,N,I,N,N,N,N,N,N,N",click,23,0,"0,0,1,0,0,0,0,0,0,0",dynamic,Variable Both,Yes,
+```
